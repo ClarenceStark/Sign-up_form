@@ -1,0 +1,144 @@
+.logo-container {
+    font-family: my-font, sans-serif;
+    position: absolute;
+    top: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.392);
+    padding: 20px 0 20px 0;
+    flex-shrink: 0;
+}
+
+.stark {
+    font-size: 100px;
+    padding: 42px 0 0 0;
+    flex-shrink: 0;
+}
+
+.logo {
+    height: 16vh;
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.copyright {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.side-bar {
+    background-image: url(./image/bg-img.jpg);
+    width: 50vw;
+    height: 100vh;
+    background-size: 900px 1350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 100px 200px 30px 60px;
+}
+
+#p-1 {
+    margin: 0;
+    padding: 0;
+}
+
+#p-2 {
+    margin: 0;
+}
+
+.content {
+    background-color: rgb(236, 241, 243);
+}
+
+.input {
+    padding: 0 300px 40px 60px;
+    background-color: rgba(255, 255, 255, 0.868);
+    box-shadow: 0 3px 8px rgb(190, 190, 190);
+    display: flex;
+    flex-direction: column;
+}
+
+.input-area {
+    display: flex;
+    gap: 80px;
+}
+
+label {
+    font-weight: 800;
+    font-size: 14px;
+    color: rgb(84, 84, 84);
+    display: block;
+}
+
+input {
+    border: 1px solid #dbdfe6;
+    border-radius: 5px;
+    width: 14vw;
+    height: 22px;
+}
+
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.create-account {
+    margin: 40px 0 0 60px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px gray;
+    transition: 0.3s;
+}
+
+.create-account:hover {
+    background-color: #6d8a53;
+    transition: 0.3s
+}
+
+form+p {
+    margin: 14px 0 0 60px;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#log-in-btn {
+    border: none;
+    font-size: 18px;
+    background-color: rgb(236, 241, 243);
+    color: #596D48;
+    font-weight: bolder;
+}
+
+#log-in-btn:hover {
+    color: #6d8a53;
+}
